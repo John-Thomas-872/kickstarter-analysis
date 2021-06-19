@@ -15,7 +15,8 @@ Louise is not only interested in the time of year that similar projects originat
 '=COUNTIFS(Kickstarter!$D:$D, "<1000", Kickstarter!$F:$F, "Canceled", Kickstarter!$R:$R, "plays")'
 
 To make the data easier to understand, new columns were created at the end of this new sheet to show the percent completed, the percent failed, and the percent cancelled. Percentages are an easy way to get an idea of the changes in the data versus looking at the raw figures. 
-With the creation of these percentage columns, a line graph can be created that shows the outcomes based on the goal with percentages on the y-axis and the dollar increments on the x-axis. This graph is  titles Outcomes_vs_Goals.png and is also located in the attached resources folder 
+With the creation of these percentage columns, a line graph can be created that shows the outcomes based on the goal with percentages on the y-axis and the dollar increments on the x-axis. The graph below is  titled Outcomes_vs_Goals.png and is also located in the attached resources folder. ![alt text](resources/Outcomes_vs_Goals.png) 
+
 ### Challenges and Difficulties Encountered
 One of the main difficulties is figuring out how to change the pivot table to display the data for the Outcomes by Launch Date from years to months. The actually solution was rather simple, but finding the solution took some research. To do this, select the column showing years, right click, select group, and the options are given to show the data over different time frames. 
 
